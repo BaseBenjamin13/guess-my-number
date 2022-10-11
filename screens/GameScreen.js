@@ -1,8 +1,10 @@
-import React from 'react'
+import { View, Text, StyleSheet } from 'react-native';
 
 function GameScreen() {
   return (
-    <div>GameScreen</div>
+    <View >
+        <Text>Game Screen</Text>
+    </View>
   )
 }
 
