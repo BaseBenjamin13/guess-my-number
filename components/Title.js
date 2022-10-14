@@ -1,6 +1,8 @@
 
 import { View, Text, StyleSheet } from 'react-native';
 
+import Colors from '../constants/colors';
+
 function Title({ title }) {
   return (
         <View style={styles.titleContainer}>
@@ -15,7 +17,7 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 24,
         fontWeight: 'bold',
-        color: '#ddb52f',
+        color: Colors.accent500,
         textAlign: 'center',
         shadowColor: 'black',
         shadowOffset: {width: 0, height: 7},
@@ -24,7 +26,7 @@ const styles = StyleSheet.create({
     },
     titleContainer: {
         borderWidth: 2,
-        borderColor: '#ddb52f',
+        borderColor: Colors.accent500,
         padding: 12,
         borderRadius: 10,
         shadowColor: 'black',
